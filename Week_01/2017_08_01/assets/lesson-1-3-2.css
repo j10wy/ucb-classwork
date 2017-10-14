@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+.box-set {
+	background-color: #eaeaea;
+	height: 320px;
+	position: static;
+	overflow: auto;
+}
+
+body {
+	margin: 0px;
+}
+
+.box {
+	background-color: green;
+	height: 80px;
+	width: 80px;
+	position: relative;
+	margin: 0;
+}
+
+.box-1 {
+	top:0px;
+	left: 0px; 
+}
+
+.box-2 {
+	top:0px;
+	left: 80px;
+}
+
+.box-3 {
+	top:0px;
+	left: 160px;
+}
+
+.box-4 {
+	top:0px;
+	left: 240px; 
+}

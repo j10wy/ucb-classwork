@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors Part 2
+    </title>
+</head>
+
+<body>
+    <div id="game">
+        <div id="wincount">Wins: <span id="wins">0</span></div>
+        <div id="losscount">Losses: <span id="losses">0</span>
+        </div>
+        <script type="text/javascript">
+        // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+        var computerChoices = ["r", "p", "s"];
+        var wins = 0;
+        var losses = 0;
+        var winsDisplay = document.getElementById("wins");
+        var lossDisplay = document.getElementById("losses");
+
+        function compare(choice1, choice2) {
+            if (choice1 === choice2) {
+                alert("Draw");
+            } else {
+                if (choice1 === 'r' && choice2 === 's') {
+                  win();
+                }
+
+                if (choice1 === 'r' && choice2 === 'p') {
+                  loss();
+                }
+
+                if (choice1 === 's' && choice2 === 'p') {
+                  win();
+                }
+
+                if (choice1 === 's' && choice2 === 'r') {
+                  loss();
+                }
+
+                if (choice1 === 'p' && choice2 === 's') {
+                  loss();
+                }
+
+                if (choice1 === 'p' && choice2 === 'r') {
+                  win();
+                }
+            }
+        }
+
+        function win() {
+            alert("You win!");
+            wins++;
+            winsDisplay.innerHTML = wins;
+        }
+
+        function loss() {
+            alert("You lose!");
+            losses++;
+            lossDisplay.innerHTML = losses;
+        }
+
+        // This function is run whenever the user presses a key.
+        document.onkeyup = function(event) {
+
+            // Determines which key was pressed.
+            var userGuess = event.key.toLowerCase();
+
+            if (computerChoices.indexOf(userGuess) > -1) {
+
+                var userIndexNumber = computerChoices.indexOf(userGuess);
+
+                // Randomly chooses a choice from the options array. This is the Computer's guess.
+                var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+                // Alerts the key the user pressed (userGuess).
+                alert("User guess: " + userGuess);
+
+                // Alerts the Computer's guess.
+                alert("Computer guess: " + computerGuess);
+
+                compare(userGuess, computerGuess)
+
+                console.log("Wins:", wins);
+                console.log("Losses:", losses);
+
+            } else {
+                alert("Choose R, P or S!");
+            }
+        };
+        </script>
+</body>
+
+</html>

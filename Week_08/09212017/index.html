@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	    crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+		crossorigin="anonymous">
+		
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyCUACRpXkyNSnmSbd8GHsz5f3EnlanzSi4",
+			authDomain: "ucbx-employee-hours.firebaseapp.com",
+			databaseURL: "https://ucbx-employee-hours.firebaseio.com",
+			projectId: "ucbx-employee-hours",
+			storageBucket: "",
+			messagingSenderId: "432273790337"
+		};
+		firebase.initializeApp(config);
+	</script>
+	<script src="timesheet.js"></script>
+	<title>Employee Data Management</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="jumbotron">
+				<h1>Employee Data Management</h1>
+				<p>A Comprehensive Directory of Employee Billable Hours</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="panel panel-default">
+					<!-- Default panel contents -->
+					<div class="panel-heading">Current Employees</div>
+					<!-- Table -->
+					<table class="table">
+						<tr>
+							<th class="title">Employee Name</th>
+							<th class="title">Role</th>
+							<th class="title">Start Date</th>
+							<th class="title">Months Worked</th>
+							<th class="title">Monthly Rate ($)</th>
+							<th class="title">Total Billed ($)</th>
+						</tr>
+						<tr>
+							<td class="employee">...</td>
+							<td class="employee">...</td>
+							<td class="employee">...</td>
+							<td class="employee">...</td>
+							<td class="employee">...</td>
+							<td class="employee">...</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="panel panel-default">
+					<!-- Default panel contents -->
+					<div class="panel-heading">Add Employee</div>
+					<div class="panel-body">
+						<form>
+							<div class="form-group">
+								<label for="employeeName">Employee Name</label>
+								<input type="text" class="form-control" id="employeeName" placeholder="Employee Name">
+							</div>
+							<div class="form-group">
+								<label for="employeeRole">Employee Role</label>
+								<input type="text" class="form-control" id="employeeRole" placeholder="Employee Role">
+							</div>
+							<div class="form-group">
+								<label for="monthyRate">Monthly Rate</label>
+								<input type="text" class="form-control" id="monthyRate" placeholder="Monthly Rate">
+							</div>
+							<button id="addEmployee" class="btn btn-default">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "omdb-unsolved",
+  "version": "1.0.0",
+  "description": "",
+  "main": "omdbInteractiveStarter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeffrey Lowy <jeffreylowy@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

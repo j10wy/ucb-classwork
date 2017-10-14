@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm</title>
+    <script type="text/javascript">
+    var confirmSteak = prompt("Do you want a steak sandwich?");
+    var age = 2017 - parseInt(prompt("What is your birth year?"));
+    if (confirmSteak === "yes") {
+        document.write("Here's a steak sandwich!");
+    } else if (confirmSteak === "no") {
+        document.write("Here's a tofu stir-fry!");
+    } else {
+        console.log("other");
+    }
+
+    if (age < 21) {
+        alert("No sake for you");
+    } else {
+        alert("Here's a sake!");
+    }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Object</title>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One|Lato" rel="stylesheet">
+    <style>
+    * {
+        font-family: 'Lato', sans-serif;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    body > div{
+        width: 50vw;
+        min-width: 400px;
+        border:1px solid red;
+        margin: 50px auto;
+        padding:20px;
+        background-color: white;
+    }
+
+    h1 {
+        font-family: 'Carter One', cursive;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h3 {
+        text-decoration: underline;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    li {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    span {
+        color: red;
+        font-weight: bold;
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1><i class="em em-blue_car"></i> CAR ADVENTURES!</h1>
+        <h3> Options available </h3>
+        <ul>
+            <li><i class="em em-speaker"></i> <span>H</span>: Honk.</li>
+            <li><i class="em em-vertical_traffic_light"></i> <span>D</span>: Drive to work.</li>
+            <li><i class="em em-earth_americas"></i> <span>W</span>: Drive around the world.</li>
+            <li><i class="em em-wrench"></i> <span>T</span>: Get a tune-up.</li>
+        </ul>
+    </div>
+    <script>
+    // Creating our car object.
+    var car = {
+
+        // Properties of our car object.
+        make: "Honda",
+        model: "Fit",
+        color: "Blue Raspberry",
+        mileage: 3000,
+        isWorking: true,
+
+        // Creating the driveToWork method.
+        // A method is a function associated with an object.
+        driveToWork: function() {
+
+            // When we say "this" (as in this.mileage) we are referring to the object the method is a part of.
+            // In this case, we will alert the mileage of the car object.
+            alert("Current Mileage: " + this.mileage);
+
+            // Adding 8 to the car's mileage.
+            this.mileage = this.mileage + 8;
+
+            // Alerting the car's new mileage.
+            alert("Mileage after commute: " + this.mileage);
+        },
+
+        // The driveAroundWorld method adds 24,000 miles to our car, sets isWorking to false, and makes some alerts.
+        driveAroundWorld: function() {
+
+            alert("Let's drive around the world! Current Mileage: " + this.mileage);
+
+            this.mileage = this.mileage + 24000;
+
+            alert("Welcome home! New Mileage: " + this.mileage);
+            alert("Wow! That was a long trip. Car needs a tuneup!");
+
+            this.isWorking = false;
+        },
+
+        // The getTuneUp method sets isWorking to true and alerts a message.
+        getTuneUp: function() {
+            alert("*sound of air drill* Car is ready to go!");
+            this.isWorking = true;
+        },
+
+        // The honk method alerts a honking message.
+        honk: function() {
+            alert("Honk! Honk!");
+        }
+    };
+
+    function reWriteStats() {
+        console.log("Car make:", car.make, " | Car model:", car.model, " | Car color:", car.color, " | Car mileage:", car.mileage, " | Car is working?:", car.isWorking);
+    }
+
+    document.onkeyup = function(keyPress) {
+        keyEntered = keyPress.key.toLowerCase();
+        if (keyEntered === 'h') {
+            car.honk();
+            reWriteStats();
+        } else if (keyEntered === 'd') {
+            car.driveToWork();
+            reWriteStats();
+        } else if (keyEntered === 'w') {
+            car.driveAroundWorld();
+            reWriteStats();
+        } else if (keyEntered === 't') {
+            car.getTuneUp();
+            reWriteStats();
+        } else {
+            //alert("Not a valid key.");
+            console.log("Not a valid key.");
+        }
+    };
+    </script>
+</body>
+
+</html>

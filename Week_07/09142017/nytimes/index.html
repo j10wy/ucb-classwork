@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>New York Times Search</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	    crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	    crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<h1><strong> <i class="fa fa-newspaper-o"></i> New York Times Search</strong></h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<br>
+
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title"><strong><i class="fa  fa-list-alt"></i>   Search Parameters</strong></h3>
+					</div>
+					<div class="panel-body">
+
+						<form role="form">
+
+							<div class="form-group">
+								<label for="searchTerm">Search Term:</label>
+								<input type="text" class="form-control" id="searchTerm">
+							</div>
+
+							<div class="form-group">
+								<label for="numRecordsSelect">Number of Records to Retrieve:</label>
+								<select class="form-control" id="numRecordsSelect">
+									<option value="1">1</option>
+									<!-- Setting the option for 5 as default -->
+									<option value="5" selected="">5</option>
+									<option value="10">10</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="startYear">Start Year (Optional):</label>
+								<input type="text" class="form-control" id="startYear">
+							</div>
+
+							<div class="form-group">
+								<label for="endYear">End Year (Optional):</label>
+								<input type="text" class="form-control" id="endYear">
+							</div>
+
+							<button type="submit" class="btn btn-default" id="runSearch"><i class="fa fa-search"></i> Search</button>
+							<button type="button" class="btn btn-default" id="clearAll"><i class="fa fa-trash"></i> Clear Results</button>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<br>
+
+				<div class="panel panel-primary">
+
+					<div class="panel-heading">
+						<h3 class="panel-title"><strong><i class="fa fa-table"></i>   Top Articles</strong></h3>
+					</div>
+
+					<div class="panel-body" id="wellSection">
+						<div class="well" id="articleWell-1">
+							<h3><span class="label label-primary">1</span> <strong>Title</strong></h3>
+							<h5>By authorname</h5>
+							<h5>Section: ???</h5>
+							<h5>date</h5><a href="#">URL</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="nyt.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Giphy Single Image</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	    crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="container">
+		<img alt="">
+		<input type="text" id="searchTerm" placeholder="giphy search term" style="display:block; padding:10px; font-size:22px; background:black; color:white; border:none; margin-bottom:20px;">
+		<button style="display:block; padding:10px; font-size:22px; background:black; color:white; border:none;">New Gif</button>
+	</div>
+	<script>
+		var newGiphy = function (tagName, element) {
+			$.ajax({
+					url: "https://api.giphy.com/v1/gifs/random",
+					data: {
+						api_key: "6039e9a9db5140b8b08b727c3e8bd933",
+						tag: tagName,
+						fmt: "json"
+					}
+				})
+				.done(function (response) {
+					$(element).attr("src", response.data.image_url)
+				});
+		}
+		$(document).ready(function () {
+			var imgSelector = ".container img";
+			$("button").on("click", function(){
+				var searchTerm = $("#searchTerm").val();
+				newGiphy(searchTerm, imgSelector);
+			})
+		});
+	</script>
+</body>
+
+</html>

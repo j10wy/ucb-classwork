@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Trigger Clicked</title>
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+    img {
+      height: calc(100vh/2);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Click to Eat Sandwich</h1>
+  <h3 id="pbj">Peanut Butter Jelly</h3>
+  <h3 id="grilledcheese">Grilled Cheese</h3>
+  <h3 id="roastbeef">Roast Beef</h3>
+  <div id="img-div">
+
+  </div>
+  <script type="text/javascript">
+    // This document.ready isn't necessary in this example... but is needed in cases where the HTML is complex.
+    // This code makes sure that the JavaScript doesn't get run until the HTML is finished loading
+    // It's useful to become familiar with now.
+
+    $(document).ready(function () {
+
+      // VARIABLES
+      // ====================================================================
+      // Here we create variables for tracking the number of sandwiches eaten
+      // ...
+
+      var pbj = $("#pbj");
+      var grilledcheese = $("#grilledcheese");
+      var roastbeef = $("#roastbeef");
+      var imgdiv = $("#img-div");
+
+      var pbjCounter = 0;
+      var grilledcheeseCounter = 0;
+      var roastbeefCounter = 0;
+
+      var pbjImage =
+        "https://s-media-cache-ak0.pinimg.com/736x/1b/2f/63/1b2f6382a7a2e04bd756bef93cbb9af5--jelly-recipes-food-porn.jpg";
+
+      var grilledcheeseImage =
+        "http://nerdist.com/wp-content/uploads/2017/01/Mega-Grilled-Cheese-Feature-Image-01182017.jpg";
+
+      var roastbeefImage = "https://thirsteacafenyc.files.wordpress.com/2010/10/cd3c7-dscn7518.jpg";
+
+      // ...
+
+      // FUNCTIONS
+      // ====================================================================
+      // Here we create various on "click" functions which capture the clicks
+      // Inside each click event is the code to create an alert, update the counter, then show the updated count.
+      // ...
+
+      pbj.on("click", function () {
+        alert("This is the best thing ever created.");
+        pbjCounter++;
+        imgdiv.html("<img src='" + pbjImage + "'>");
+        console.log("pbjCounter", pbjCounter);
+      });
+
+      grilledcheese.on("click", function () {
+        alert("This is the best thing ever created.");
+        grilledcheeseCounter++;
+        imgdiv.html("<img src='" + grilledcheeseImage + "'>");
+        console.log("grilledcheeseCounter", grilledcheeseCounter);
+      });
+
+      roastbeef.on("click", function () {
+        alert("This is the best thing ever created.");
+        roastbeefCounter++;
+        imgdiv.html("<img src='" + roastbeefImage + "'>");
+        console.log("roastbeefCounter ", roastbeefCounter);
+      });
+
+
+
+      // ...
+
+    });
+  </script>
+
+</body>
+
+</html>

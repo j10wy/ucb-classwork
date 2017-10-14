@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    div.left {
+    	width: 25%;
+        background: red;
+        float: left;
+    }
+
+    div.right {
+        width: 15%;
+        background: red;
+        float: left;
+    }
+
+    div.middle {
+        background-color: blue;
+        float:left;
+        width: 20%;
+    }
+    .container:after {
+    	content:"";
+    	display: block;
+    	visibility: none;
+    	clear: both;
+    }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <div class="container">
+        <div class="left">left</div>
+        <div class="middle">middle</div>
+        <div class="right">Right</div>
+    </div>
+    <footer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae assumenda dolorum ullam sunt ut architecto. Quo perferendis omnis pariatur eveniet aut cumque ut ipsum, tenetur nihil, laboriosam iusto, accusantium error!</footer>
+</body>
+
+</html>

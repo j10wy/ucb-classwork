@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+    line-height: 1.7em;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    background: #eee;
+    text-align: center;
+}
+
+.relative {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    padding: 30px;
+    background: #888;
+    bottom: -10px;
+    right: -30px;
+    z-index: -100;
+}
+
+.absolute2 {
+    position: absolute;
+    padding: 30px;
+    background: red;
+    bottom: 10px;
+    right: 30px;
+}

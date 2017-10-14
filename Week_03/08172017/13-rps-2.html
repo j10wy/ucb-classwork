@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors Part 2
+    </title>
+</head>
+
+<body>
+    <div id="game">
+        <div id="wincount">Wins: <span id="wins">0</span></div>
+        <div id="losscount">Losses: <span id="losses">0</span>
+        </div>
+        <script type="text/javascript">
+        // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+        var computerChoices = ["r", "p", "s"];
+        var wins = 0;
+        var losses = 0;
+        var winsDisplay = document.getElementById("wins");
+        var lossDisplay = document.getElementById("losses");
+
+        // This function is run whenever the user presses a key.
+        document.onkeyup = function(event) {
+
+            // Determines which key was pressed.
+            var userGuess = event.key.toLowerCase();
+
+            if (computerChoices.indexOf(userGuess) > -1) {
+
+                var userIndexNumber = computerChoices.indexOf(userGuess);
+
+                // Randomly chooses a choice from the options array. This is the Computer's guess.
+                var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+                var computerIndexNumber = computerChoices.indexOf(computerGuess);
+
+                // Alerts the key the user pressed (userGuess).
+                alert("User guess: " + userGuess);
+
+                // Alerts the Computer's guess.
+                alert("Computer guess: " + computerGuess);
+
+                if (userGuess === 'r' && computerGuess === 's') {
+                    alert("You win");
+                    wins++;
+                    winsDisplay.innerHTML = wins;
+                }
+
+                if (userGuess === 'r' && computerGuess === 'p') {
+                    alert("You lose");
+                    losses++;
+                    lossDisplay.innerHTML = losses;
+                }
+
+                if (userGuess === 's' && computerGuess === 'p') {
+                    alert("You win");
+                    wins++;
+                    winsDisplay.innerHTML = wins;
+                }
+
+                if (userGuess === 's' && computerGuess === 'r') {
+                    alert("You lose");
+                    losses++;
+                    lossDisplay.innerHTML = losses;
+                }
+
+                if (userGuess === 'p' && computerGuess === 's') {
+                    alert("You lose");
+                    losses++;
+                    lossDisplay.innerHTML = losses;
+                }
+
+                if (userGuess === 'p' && computerGuess === 'r') {
+                    alert("You win");
+                    wins++;
+                    winsDisplay.innerHTML = wins;
+                }
+
+                if (userGuess === computerGuess) {
+                    alert("Draw");
+                }
+
+                console.log("Wins:", wins);
+                console.log("Losses:", losses);
+
+            } else {
+                alert("Choose R, P or S!");
+            }
+        };
+        </script>
+</body>
+
+</html>

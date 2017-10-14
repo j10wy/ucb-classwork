@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    #box {
+        background-color: #1e5792;
+        width: 400px;
+        height: auto;
+        margin:10px 30px 20px 50px;
+        color:#fff;
+        padding:25px 10px 30px 20px;
+        border-style: solid;
+        border-width: 22px;
+        border-color:#113152;
+    }
+    #box::after {
+    	content: "Test";
+    	color:red;
+    	display: block;
+    	border:1px solid red;
+    	clear: both;
+    }
+
+    p {
+    	width: 25%;
+    	float: left;
+    }
+
+    /* height: 539px;
+ 		width: 474px;
+ 		Width: 400px (width) + 30px (padding) + 44 (border 22x2);
+ 		Height: 440px (height) + 55px (padding) + 44 (border);
+ 	*/ 
+    </style>
+</head>
+
+<body>
+	<div id="box">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil sapiente ea, consectetur sint, voluptatem similique velit magnam ut quas pariatur temporibus dignissimos libero architecto et assumenda natus unde necessitatibus earum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil sapiente ea, consectetur sint, voluptatem similique velit magnam ut quas pariatur temporibus dignissimos libero architecto et assumenda natus unde necessitatibus earum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil sapiente ea, consectetur sint, voluptatem similique velit magnam ut quas pariatur temporibus dignissimos libero architecto et assumenda natus unde necessitatibus earum.</p>
+		
+	</div>
+	<footer>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa fugit sapiente natus, veniam omnis dolore porro in eos, labore voluptatum nemo culpa enim incidunt voluptas id, ducimus reiciendis. Vero!</div>
+		</footer>
+</body>
+
+</html>
+
