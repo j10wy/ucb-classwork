@@ -9,6 +9,7 @@
   "author": "Jeffrey Lowy <jeffreylowy@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "geocoder": "^0.2.3"
+    "geocoder": "^0.2.3",
+    "inquirer": "^3.3.0"
   }
 }
