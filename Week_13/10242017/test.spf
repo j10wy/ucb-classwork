@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>animals_db</string>
+			<key>host</key>
+			<string>localhost</string>
+			<key>name</key>
+			<string>localhost</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPSocketConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJX
+			TlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAF
+			gAdUdHlwZVRyb3dzXxAdU2VsZWN0aW9uRGV0YWlsVHlwZU5TSW5k
+			ZXhTZXTSFwsYGVxOU1JhbmdlQ291bnQQAIAG0hscHR5aJGNsYXNz
+			bmFtZVgkY2xhc3Nlc1pOU0luZGV4U2V0oh8gWk5TSW5kZXhTZXRY
+			TlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVk
+			QXJjaGl2ZXLRJidUZGF0YYABAAgAEQAaACMALQAyADcAQABGAE0A
+			VQBgAGcAagBsAG4AcQBzAHUAdwB8AIEAoQCmALMAtQC3ALwAxwDQ
+			ANsA3gDpAPIA9wEEAQcBGQEcASEAAAAAAAACAQAAAAAAAAAoAAAA
+			AAAAAAAAAAAAAAABIw==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<false/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {896, 613}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>CREATE DATABASE animals_db;
+USE animals_db;
+
+CREATE TABLE people(
+	username VARCHAR(30) NOT NULL,
+	has_pet BOOLEAN NOT NULL,
+	pet_name VARCHAR(30),
+	pet_age INTEGER(10)
+);
+
+CREATE TABLE fav_foods (
+	food VARCHAR(50) NOT NULL,
+	score INTEGER(4)
+);
+
+CREATE TABLE fav_songs (
+	song VARCHAR(100) NOT NULL,
+	artist VARCHAR(50),
+	score INTEGER(4)
+);
+
+CREATE TABLE fav_movies (
+	film VARCHAR(100) NOT NULL,
+	five_times BOOLEAN,
+	score INTEGER(4)
+);
+
+INSERT INTO people VALUES ("Vanessa", true, "Chico", 11);
+
+
+
+</string>
+			<key>table</key>
+			<string>people</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>206</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>ALTER TABLE programming_db
+ADD mastered BOOLEAN DEFAULT true</string>
+		<string>SELECT * FROM programming_db</string>
+		<string>UPDATE programming_db
+SET rating = 7
+WHERE languages = "JavaScript"</string>
+		<string>INSERT INTO programming_db (languages, rating)
+VALUES ("JavaScript", 6), ("MySQL", 5), ("HTML", 4), ("CSS", 3)</string>
+		<string>CREATE TABLE programming_db (
+	id INTEGER(10) NOT NULL AUTO_INCREMENT,
+	languages VARCHAR(100) NOT NULL,
+	rating INTEGER(10) NOT NULL,
+	PRIMARY KEY (id)
+)</string>
+		<string>SELECT mastered FROM programming_db</string>
+		<string>ALTER TABLE programming_db
+ADD mastered BOOLEAN</string>
+		<string>ALTER TABLE programming_db
+ADD mastered BOOLEAN
+SET DEFAULT true</string>
+		<string>SELECT * from fav_movies</string>
+		<string>DELETE FROM fav_movies
+WHERE id = 1</string>
+		<string>INSERT INTO fav_movies (film, five_times, score)
+VALUES ("BTILC", true, 100), ("Star Wars", false, 1000)</string>
+		<string>SELECT * FROM fav_movies</string>
+		<string>SELCT * FROM fav_movies</string>
+		<string>INSERT INTO fav_movies (film, five_times, score)
+VALUES ("BTILC", true, 100)</string>
+		<string>-- INSERT INTO people VALUES ("Vanessa", true, "Chico", 11);
+
+-- SELECT * FROM people;
+
+-- SELECT username, has_pet FROM people;
+
+-- ALTER TABLE fav_movies
+-- ADD ID INTEGER(10) NOT NULL;
+
+CREATE TABLE fav_movies (
+id INTEGER(10) NOT NULL AUTO_INCREMENT,
+film VARCHAR(100) NOT NULL,
+five_times BOOLEAN,
+score INTEGER(4),
+PRIMARY KEY (id)
+)</string>
+		<string>-- INSERT INTO people VALUES ("Vanessa", true, "Chico", 11);
+
+-- SELECT * FROM people;
+
+-- SELECT username, has_pet FROM people;
+
+-- ALTER TABLE fav_movies
+-- ADD ID INTEGER(10) NOT NULL;
+
+CREATE TABLE fav_movies (
+id INTEGER(10) NOT NULL AUTO_INCREMENT,
+film VARCHAR(100) NOT NULL,
+five_times BOOLEAN,
+score INTEGER(4),
+PRIMARY KEY (id)
+--)</string>
+		<string>ALTER TABLE fav_movies
+ADD ID INTEGER(10) NOT NULL</string>
+		<string>ALTER TABLE fav_movies
+ADD ID AUTO_INCREMENT INTEGER(10) NOT NULL</string>
+		<string>ALTER TABLE fav_movies
+ADD ID primary key INTEGER(10) NOT NULL AUTO_INCREMENT</string>
+		<string>ALTER TABLE fav_movies
+ADD ID INTEGER(10) NOT NULL AUTO_INCREMENT</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.20</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
