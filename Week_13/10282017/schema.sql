@@ -1,12 +1,27 @@
+DROP DATABASE IF EXISTS top_songsDB;
 CREATE DATABASE top_songsDB;
+USE top_songsDB;
 
-CREATE TABLE Top5000 (
+CREATE TABLE top_5000_songs (
 id INTEGER(10) NOT NULL PRIMARY KEY,
 artist VARCHAR(255),
 song VARCHAR(255),
 year INTEGER(10),
-raw_total DECIMAL(10,4) NULL,
-raw_usa DECIMAL(10,4) NULL,
-raw_uk DECIMAL(10,4) NULL,
-raw_eur DECIMAL(10,4) NULL,
-raw_row DECIMAL(10,4) NULL);
+raw_total FLOAT(13) NULL,
+raw_usa FLOAT(13) NULL,
+raw_uk FLOAT(13) NULL,
+raw_eur FLOAT(13) NULL,
+raw_row FLOAT(13) NULL);
+
+CREATE TABLE top_3000_albums (
+id INTEGER(10) NOT NULL PRIMARY KEY,
+artist VARCHAR(255),
+album VARCHAR(255),
+year INTEGER(10),
+raw_total FLOAT(13) NULL,
+raw_usa FLOAT(13) NULL,
+raw_uk FLOAT(13) NULL,
+raw_eur FLOAT(13) NULL,
+raw_row FLOAT(13) NULL);
+
+SELECT * FROM Top5000;
