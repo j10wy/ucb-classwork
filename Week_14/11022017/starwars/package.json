@@ -4,7 +4,8 @@
   "description": "Site and API that displays information for Star Wars characters.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Jeffrey Lowy <jeffreylowy@gmail.com>",
   "license": "MIT",
