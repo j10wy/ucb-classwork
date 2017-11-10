@@ -48,11 +48,11 @@ app.get("/", function(req, res) {
 
 // Post route -> back to home
 app.post("/", function(req, res) {
-  // Test it
-  // console.log('You sent, ' + req.body.task);
+  //Test it
+  console.log('You sent, ' + req.body.task);
 
-  // Test it
-  // res.send('You sent, ' + req.body.task);
+ // Test it
+  res.send('You sent, ' + req.body.task);
 
   connection.query("INSERT INTO tasks (task) VALUES (?)", [req.body.task], function(err, result) {
     if (err) throw err;
