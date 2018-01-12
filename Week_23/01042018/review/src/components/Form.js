@@ -7,8 +7,8 @@ class Form extends Component {
     password: "1245"
   };
 
-  alertUserInfo = () => {
-    alert(`Username: ${this.state.username} | Password: ${this.state.password} `)
+  updateState = () => {
+    alert(`Username: ${this.state.username} | Password: ${this.state.password} `);
   }
 
   render() {
@@ -24,7 +24,7 @@ class Form extends Component {
           type="password"
           placeholder="Password"
         />
-        <button onClick={this.handleDeIncrement}>Submit</button>
+        <button onClick={this.updateState}>Submit</button>
       </form>
     );
   }
