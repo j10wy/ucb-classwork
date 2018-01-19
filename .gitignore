@@ -62,3 +62,6 @@ typings/
 
 # macOS Desktop Services Store
 .DS_Store
+
+# Python
+env/
