@@ -8,3 +8,4 @@ for (var i=0;i<stuff.length;i++) {
 		console.log("Index:", i, "Value",random_value);
 	}
 }
+
