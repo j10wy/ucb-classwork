@@ -1,28 +1,26 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-# Create your views here.
-
+"""
+The homepage with task list.
+"""
 def home(request):
-    html_string = '<h1> Task List</h1>'
-    return HttpResponse(html_string)
+  return render(request, 'tasks/home.html', {
+    'name': 'dani',
+    'tasks': None
+  })
 
+"""
+Page to add a task.
+"""
 def add_task(request):
-    html_string = '<h1> Add Task</h1>'
-    return HttpResponse(html_string)
+  html_string = '<h1>Add Task</h1>'
+  return HttpResponse(html_string)
 
+
+"""
+Endpoint to complete tasks.
+"""
 def complete_task(request):
-    html_string = '<h1> Complete Task</h1>'
-    return HttpResponse(html_string)
-
-def index(request):
-    html_string = '<h1>Index</h1>'
-    return HttpResponse(html_string)
-
-def add(request):
-    html_string = '<h1>Index</h1>'
-    return HttpResponse(html_string)
-
-def details(request):
-    html_string = '<h1>Detail</h1>'
-    return HttpResponse(html_string)
+  html_string = '<h1>Complete Task</h1>'
+  return HttpResponse(html_string)
