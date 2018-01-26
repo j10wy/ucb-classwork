@@ -1,33 +1,41 @@
 # Resources
 
-## Email Newsletters
+## Blogs, Publications and Email Newsletters
 
-[Javascript Weekly](http://javascriptweekly.com) - Interesting articles/opinions, news, tutorials, tools and code examples.
+[Code Pen's Spark](https://codepen.io/spark) ⭐️ - Weekly email/blog posts with the most intenteresting stuff on CodePen.
 
-[Code Pen's Spark](https://codepen.io/spark) - Weekly email/blog posts with the most intenteresting stuff on CodePen.
+[Increment](https://www.increment.com/)
+
+[Javascript Weekly](http://javascriptweekly.com) ⭐️ - Interesting articles/opinions, news, tutorials, tools and code examples.
 
 ## People to Follow 
- Addy Osmani (Google) [Twitter](https://twitter.com/addyosmani) | [Facebook](https://www.facebook.com/addyosmaniofficial/)
+ Addy Osmani (Google) ⭐️ [Twitter](https://twitter.com/addyosmani) | [Facebook](https://www.facebook.com/addyosmaniofficial/)
+
+## Bash / Termainal / Command Line / PowerShell
+
+[asciinema](https://asciinema.org) - Record and share your terminal sessions
+
+[Explain Shell](https://explainshell.com) - write down a command-line to see the help text that matches each argument
 
 ## Training and Certification (and other things to add to your LinkedIn profile)
 
-[Google Developer Training](https://developers.google.com/training/web/) - Learn how to build production-ready web apps for mobile and desktop. 
+[Google Developer Training](https://developers.google.com/training/web/) ⭐️ - Learn how to build production-ready web apps for mobile and desktop. 
 
 [Google Developer Certification](https://developers.google.com/training/certification/) - Earn a certification from Google to gain recognition for your skills as a web developer. 
 
-[Salesforce Trailhead](https://trailhead.salesforce.com/) - Many tutorials to build Salesfroce apps using Javascript on Heroku. You can add badges to LinkedIn upon completion of each module.
+[Salesforce Trailhead](https://trailhead.salesforce.com/) ⭐️ - Many tutorials to build Salesfroce apps using Javascript on Heroku. You can add badges to LinkedIn upon completion of each module.
 
 ## CSS Documentation, Tools and Tutorials
 
-[Can I Use?](https://caniuse.com/) - Browser support tables for HTML5, CSS3, JS, etc.
+[Can I Use?](https://caniuse.com/) ⭐️ - Browser support tables for HTML5, CSS3, JS, etc.
 
 [coolors](https://coolors.co/) - A color schemes generator. Create, save and share color palettes in seconds.
 
-[CSS Tricks](https://css-tricks.com/) - Tips, Tricks, and Techniques on using Cascading Style Sheets.
+[CSS Tricks](https://css-tricks.com/) ⭐️ - Tips, Tricks, and Techniques on using Cascading Style Sheets.
 
 [Sequence.js](https://www.sequencejs.com/) - responsive CSS animation framework for creating sliders, presentations, banners, and other step-based applications
 
-[Mozilla Developer's Playground](https://mozilladevelopers.github.io/playground/) - Learn, build, improve, and create with Firefox DevTools.
+[Mozilla Developer's Playground](https://mozilladevelopers.github.io/playground/) ⭐️ - Learn, build, improve, and create with Firefox DevTools.
 
 [CSS Protips](https://github.com/AllThingsSmitty/css-protips#protips) - A collection of tips to help take your CSS skills pro.
 
@@ -35,7 +43,7 @@
 
 [CSS Variables: Why Should You Care?](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care) - Useful for reducing repetition in CSS, and also for powerful runtime effects like theme switching.
 
-[Codrops](https://tympanus.net/codrops/category/tutorials/) - In-depth how-tos involving common web development and web design techniques.
+[Codrops](https://tympanus.net/codrops/category/tutorials/) ⭐️ - In-depth how-tos involving common web development and web design techniques.
 
 [Flexbox Froggy](http://flexboxfroggy.com/) - A game for learning CSS flexbox
 
@@ -51,11 +59,43 @@
 
 [Visual Algo](https://visualgo.net) - visualising data structures and algorithms through animation.
 
+## Editor Plugins (VS Code unless otherwise noted)
+
+[ASCIIDecorator](https://marketplace.visualstudio.com/items?itemName=helixquar.asciidecorator)
+
+[Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) - View Excel spreadsheets and CSV files within Visual Studio Code workspaces.
+
+[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) - View git log, file history, compare branches or commits.
+
+[Snippet Generator (Sublime, Atom, VS Code)](https://pawelgrzybek.com/snippet-generator/) ⭐️ - Create custom snippets for your code editor.
+
+[Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd) ⭐️ - View git history. View commit details. View diff of committed files. Multi-root workspaces supported.
+
+[Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) ⭐️ - Seamlessly navigate and explore the history of a file or branch, gain valuable insights via powerful comparison commands, and so much more.
+
+[Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager) - Allows you to change easily between git projects.
+
+[highlight-matching-tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag) - Highlights matching closing or opening tag.
+
 ## Git/Github 
 
 [asciiflow](http://asciiflow.com/) - Create ASCII diagrams by drawing on the web. Not really Git/Github related, but great for readmes and documentation.
 
+[GitHub Marketplace](https://github.com/marketplace) - Tools to build on and improve your workflow
+
+[To-do bot](https://todo.jasonet.co) ⭐️ - GitHub App that automagically creates new issues based on comments and keywords in your code when you push it to GitHub.
+
 [Carbon](https://carbon.now.sh) - Create and share images of your source code.
+
+[Shields.io](https://shields.io/) ⭐️️ - Cool/informational badges for your Github readmes
+
+[Tower 2](https://www.git-tower.com) - Version control with Git - made easy. In a beautiful, efficient, and powerful app. WHY 👏 HAVE 👏YOU 👏 NOT 👏 PURCHASED 👏 THIS 👏 YET?! 👏
+
+## Hosting: services, security, deployment docs and tools
+
+[Glitch](https://glitch.com/) - Friendly community with instant hosting and deployment - anybody can build a web app on Glitch, for free.
+
+[Digital Ocean's tutorials and docs](https://www.digitalocean.com/community/tags/product-documentation/tutorials) ⭐️ - These articles provide a detailed overview and reference for DigitalOcean features and products. 
 
 ## Internet of Things
 
@@ -75,7 +115,7 @@
 
 [ReactJS SF Meetup](https://www.meetup.com/ReactJS-San-Francisco/)
 
-Node School [San Francisco](https://nodeschool.io/sanfrancisco/) | [Oakland](https://nodeschool.io/oakland/)
+Node School ⭐️ [San Francisco](https://nodeschool.io/sanfrancisco/) | [Oakland](https://nodeschool.io/oakland/)
 
 [Serverless](https://www.meetup.com/Serverless)
 
@@ -90,6 +130,8 @@ SF HTML5 ($10 fee but always super interesting and great for networking) - [Meet
 [Scotch.io](https://scotch.io/tutorials) - "fun and practical" web development tutorials
 
 [Microsoft AI School (Node and Python)](https://aischool.microsoft.com/learning-paths) - Learn how to start building intelligence into your solutions with the Microsoft AI platform.
+
+[Together.js](https://togetherjs.com/) - Add real time collaboration features to your website! 
 
 ## UI/UX
 
@@ -111,13 +153,15 @@ SF HTML5 ($10 fee but always super interesting and great for networking) - [Meet
 
 [DigitalOcean](https://www.youtube.com/channel/UCaPX53JLxxSbwZz_Ra_cL0g) - The D.O. channel's goal is to create a frictionless experience that enables developers to deploy faster and scale more easily.
 
-[Firebase](https://www.youtube.com/user/Firebase/) - The Youtube channel for all things Firebase! Learn how to build awesome apps with hands-on tutorials from the Firebase team.
+[Firebase](https://www.youtube.com/user/Firebase/) ⭐️ - The Youtube channel for all things Firebase! Learn how to build awesome apps with hands-on tutorials from the Firebase team.
 
 [ForwardJS](https://www.youtube.com/channel/UCYAA7wi7PkwLgeWjyslUn2A) - Talks recorded at the Forward.js Web Technology Summit
 
-[Fun Fun Function]
+[Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) ⭐️ - A fun, personal and down-to-earth show about programming. Also on [Medium](https://medium.com/humans-create-software)
 
-## OTher random, cool stuff
+[Tower: Git GUI](https://www.youtube.com/channel/UCrl5xG-L4ZCFkR-bhUy9BVg)
+
+## Misc. random / cool stuff that I am too lazy to categorize
 
 [Paper Programs](https://paperprograms.org) - browser-based system for running Javascript programs on pieces of paper.
 
