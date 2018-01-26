@@ -6,12 +6,8 @@
 
 [Code Pen's Spark](https://codepen.io/spark) - Weekly email/blog posts with the most intenteresting stuff on CodePen.
 
-<hr>
-
 ## People to Follow 
  Addy Osmani (Google) [Twitter](https://twitter.com/addyosmani) | [Facebook](https://www.facebook.com/addyosmaniofficial/)
-
-<hr>
 
 ## Training and Certification (and other things to add to your LinkedIn profile)
 
@@ -20,8 +16,6 @@
 [Google Developer Certification](https://developers.google.com/training/certification/) - Earn a certification from Google to gain recognition for your skills as a web developer. 
 
 [Salesforce Trailhead](https://trailhead.salesforce.com/) - Many tutorials to build Salesfroce apps using Javascript on Heroku. You can add badges to LinkedIn upon completion of each module.
-
-<hr>
 
 ## CSS Documentation, Tools and Tutorials
 
@@ -47,15 +41,11 @@
 
 [Nth-Test](http://www.topdesignagencies.com/nth-test/) - Test nth-child and nth-of-type psuedo selectors
 
-<hr>
-
 ## Computer Science
 
 [Base CS](https://medium.com/basecs) - Exploring the basics of computer science, every Monday, for a year.
 
 [Visual Algo](https://visualgo.net) - visualising data structures and algorithms through animation.
-
-<hr>
 
 ## Git/Github 
 
@@ -63,15 +53,11 @@
 
 [Carbon](https://carbon.now.sh) - Create and share images of your source code.
 
-<hr>
-
 ## Internet of Things
 
 [Adafruit](https://www.adafruit.com/) - Adafruit Industries is an open-source hardware company based in New York City.
 
 [Tessel 2](https://tessel.io) - Tessel 2 is a robust IoT and robotics development platform. Leverage all the libraries of Node.JS to create useful devices in minutes with Tessel.
-
-<hr>
 
 ## Meetups
 
@@ -89,15 +75,11 @@ Node School [San Francisco](https://nodeschool.io/sanfrancisco/) | [Oakland](htt
 
 SF HTML5 ($10 fee but always super interesting and great for networking) - [Meetup](https://www.meetup.com/sfhtml5/) | [YouTube (free and uploaded imediaty following the meetup)](https://www.youtube.com/channel/UCyupHmJVuUGpCMzemHYnUqQ)
 
-<hr>
-
 ## JavaScript / Node
 
 [Scotch.io](https://scotch.io/tutorials) - "fun and practical" web development tutorials
 
 [Microsoft AI School (Node and Python)](https://aischool.microsoft.com/learning-paths) - Learn how to start building intelligence into your solutions with the Microsoft AI platform.
-
-<hr>
 
 ## UI/UX
 
@@ -105,8 +87,6 @@ SF HTML5 ($10 fee but always super interesting and great for networking) - [Meet
 
 [ai2html](http://ai2html.org/) - An open-source script for Adobe Illustrator that converts your Illustrator documents into html and css.
 
-
-<hr>
 
 ## Random, cool stuff
 
