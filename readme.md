@@ -4,9 +4,13 @@
 
 [Code Pen's Spark](https://codepen.io/spark) ⭐️ - Weekly email/blog posts with the most intenteresting stuff on CodePen.
 
-[Increment](https://www.increment.com/)
+[David Walsh Blog](https://davidwalsh.name/) ⭐️ - A blog featuring tutorials about JavaScript, HTML5, AJAX, PHP, CSS, WordPress, and everything else development. ([Twitter](https://twitter.com/davidwalshblog))
+
+[Increment](https://www.increment.com/) - Quartly "magzine" that focuses experience of being a developer within technology companies and startups, best practices that companies have created and adopted to help developers work more effectively, and the tools and processes that developers use to get their jobs done.
 
 [Javascript Weekly](http://javascriptweekly.com) ⭐️ - Interesting articles/opinions, news, tutorials, tools and code examples.
+
+[Mozilla Hacks](https://hacks.mozilla.org/) - Mozilla Hacks is written for web developers, designers and everyone who builds for the Web. Hacks is produced by Mozilla's Developer Relations team and features hundreds of posts from Mozilla.
 
 ## People to Follow 
  Addy Osmani (Google) ⭐️ [Twitter](https://twitter.com/addyosmani) | [Facebook](https://www.facebook.com/addyosmaniofficial/)
@@ -15,15 +19,9 @@
 
 [asciinema](https://asciinema.org) - Record and share your terminal sessions
 
+[Command Line Power User](https://commandlinepoweruser.com/) - A video series for web developers on learning a modern command line workflow with ZSH, Z and related tools.
+
 [Explain Shell](https://explainshell.com) - write down a command-line to see the help text that matches each argument
-
-## Training and Certification (and other things to add to your LinkedIn profile)
-
-[Google Developer Training](https://developers.google.com/training/web/) ⭐️ - Learn how to build production-ready web apps for mobile and desktop. 
-
-[Google Developer Certification](https://developers.google.com/training/certification/) - Earn a certification from Google to gain recognition for your skills as a web developer. 
-
-[Salesforce Trailhead](https://trailhead.salesforce.com/) ⭐️ - Many tutorials to build Salesfroce apps using Javascript on Heroku. You can add badges to LinkedIn upon completion of each module.
 
 ## CSS Documentation, Tools and Tutorials
 
@@ -59,6 +57,8 @@
 
 [Visual Algo](https://visualgo.net) - visualising data structures and algorithms through animation.
 
+[MIT: Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm)
+
 ## Editor Plugins (VS Code unless otherwise noted)
 
 [ASCIIDecorator](https://marketplace.visualstudio.com/items?itemName=helixquar.asciidecorator)
@@ -73,29 +73,45 @@
 
 [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) ⭐️ - Seamlessly navigate and explore the history of a file or branch, gain valuable insights via powerful comparison commands, and so much more.
 
-[Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager) - Allows you to change easily between git projects.
+[Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager) ⭐️️ - Allows you to change easily between git projects.
 
-[highlight-matching-tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag) - Highlights matching closing or opening tag.
+[highlight-matching-tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag) ⭐️️ - Highlights matching closing or opening tag.
+
+[NPM Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) ⭐️️ - Visual Studio Code plugin that autocompletes npm modules in import statements.
+
+[Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) ⭐️️ - Provide rainbow colors for the round brackets, the square brackets and the squiggly brackets. This is particularly useful for Lisp or Clojure programmers, and of course, JavaScript, and other programmers.
+
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
+[Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings) ⭐️️ - Popular Sublime Text keybindings for VS Code.
+
+[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) ⭐️️ ️- highlight TODOs, FIXMEs, and any keywords, annotations. Works great with [todo bot](https://todo.jasonet.co)
 
 ## Git/Github 
 
 [asciiflow](http://asciiflow.com/) - Create ASCII diagrams by drawing on the web. Not really Git/Github related, but great for readmes and documentation.
 
-[GitHub Marketplace](https://github.com/marketplace) - Tools to build on and improve your workflow
-
-[To-do bot](https://todo.jasonet.co) ⭐️ - GitHub App that automagically creates new issues based on comments and keywords in your code when you push it to GitHub.
-
 [Carbon](https://carbon.now.sh) - Create and share images of your source code.
 
-[Shields.io](https://shields.io/) ⭐️️ - Cool/informational badges for your Github readmes
+[GitHub Marketplace](https://github.com/marketplace) - Tools to build on and improve your workflow
 
-[Tower 2](https://www.git-tower.com) - Version control with Git - made easy. In a beautiful, efficient, and powerful app. WHY 👏 HAVE 👏YOU 👏 NOT 👏 PURCHASED 👏 THIS 👏 YET?! 👏
+[Shields.io](https://shields.io/) ⭐️️ - Cool/informational badges for your Github readmes.
+
+[Todo bot](https://todo.jasonet.co) ⭐️ - GitHub App that automagically creates new issues based on comments and keywords in your code when you push it to GitHub.
+
+[Tower 2](https://www.git-tower.com) - Version control with Git - made easy. In a beautiful, efficient, and powerful app. [WHY 👏 HAVE 👏YOU 👏 NOT 👏 PURCHASED 👏 THIS 👏 YET?! 👏](https://media.giphy.com/media/2nGfl4QfpCtW/giphy.gif)
 
 ## Hosting: services, security, deployment docs and tools
+
+[Cron-Job.org](https://cron-job.org/en/) - Scheduled execution of your websites and scripts. Just in time or in flexible intervals, from minute-by-minute to once in a year. Absolutely free. 
 
 [Glitch](https://glitch.com/) - Friendly community with instant hosting and deployment - anybody can build a web app on Glitch, for free.
 
 [Digital Ocean's tutorials and docs](https://www.digitalocean.com/community/tags/product-documentation/tutorials) ⭐️ - These articles provide a detailed overview and reference for DigitalOcean features and products. 
+
+[Let’s Encrypt](https://letsencrypt.org/) - Let’s Encrypt is a free, automated, and open Certificate Authority.
+
+[Lets Encrypt Tutorial: How to Deploy a Node.js App to DigitalOcean with SSL](https://code.lengstorf.com/deploy-nodejs-ssl-digitalocean/) ⭐️ - Learn how to use Digital Ocean and Let’s Encrypt to deploy an SSL-enabled Node.js app for $5/month — in 30 minutes.
 
 ## Internet of Things
 
@@ -106,6 +122,18 @@
 [Node Bots](http://nodebots.io/) - Learn how to make robots powered by JavaScript
 
 [Tessel 2](https://tessel.io) - Tessel 2 is a robust IoT and robotics development platform. Leverage all the libraries of Node.JS to create useful devices in minutes with Tessel.
+
+## JavaScript / Node
+
+[NPM docs and tutorials](https://docs.npmjs.com/) - These are the docs you're looking for :)
+
+[Scotch.io](https://scotch.io/tutorials) - "fun and practical" web development tutorials
+
+[Microsoft AI School (Node.js and Python)](https://aischool.microsoft.com/learning-paths) - Learn how to start building intelligence into your solutions with the Microsoft AI platform.
+
+[Next.js](https://learnnextjs.com/) - React on the server side!
+
+[Together.js](https://togetherjs.com/) - Add real time collaboration features to your website! 
 
 ## Meetups
 
@@ -121,17 +149,17 @@ Node School ⭐️ [San Francisco](https://nodeschool.io/sanfrancisco/) | [Oakla
 
 [SFNode](https://www.meetup.com/sfnode)
 
-SF HTML5 ($10 fee but always super interesting and great for networking) - [Meetup](https://www.meetup.com/sfhtml5/) | [YouTube (free and uploaded imediaty following the meetup)](https://www.youtube.com/channel/UCyupHmJVuUGpCMzemHYnUqQ)
+SF HTML5 ⭐️ ($10 fee but always super interesting and great for networking) - [Meetup](https://www.meetup.com/sfhtml5/) | [YouTube (free and uploaded imediaty following the meetup)](https://www.youtube.com/channel/UCyupHmJVuUGpCMzemHYnUqQ)
 
-## JavaScript / Node
+## Training and Certification (and other things to add to your LinkedIn profile)
 
-[NPM docs and tutorials](https://docs.npmjs.com/) - These are the docs you're looking for :)
+[Google Developer Training](https://developers.google.com/training/web/) ⭐️ - Learn how to build production-ready web apps for mobile and desktop. 
 
-[Scotch.io](https://scotch.io/tutorials) - "fun and practical" web development tutorials
+[Google Developer Certification](https://developers.google.com/training/certification/) - Earn a certification from Google to gain recognition for your skills as a web developer. 
 
-[Microsoft AI School (Node and Python)](https://aischool.microsoft.com/learning-paths) - Learn how to start building intelligence into your solutions with the Microsoft AI platform.
+[MIT: Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm)
 
-[Together.js](https://togetherjs.com/) - Add real time collaboration features to your website! 
+[Salesforce Trailhead](https://trailhead.salesforce.com/) ⭐️ - Many tutorials to build Salesfroce apps using Javascript on Heroku. You can add badges to LinkedIn upon completion of each module.
 
 ## UI/UX
 
