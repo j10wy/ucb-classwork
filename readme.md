@@ -1,27 +1,85 @@
-# Resources
+<!-- TOC -->
 
-## Blogs, Publications and Email Newsletters
+- [Bash / Command Line / PowerShell / Termainal](#bash--command-line--powershell--termainal)
+- [Blogs, Publications and Email Newsletters](#blogs-publications-and-email-newsletters)
+- [Books](#books)
+- [Chrome /FireFox DevTools](#chrome-firefox-devtools)
+- [Computer Science](#computer-science)
+- [CSS Documentation, Tools and Tutorials](#css-documentation-tools-and-tutorials)
+- [Editor Plugins (VS Code unless otherwise noted)](#editor-plugins-vs-code-unless-otherwise-noted)
+- [Git/Github](#gitgithub)
+- [Hosting: services, security, deployment docs and tools](#hosting-services-security-deployment-docs-and-tools)
+- [Internet of Things](#internet-of-things)
+- [JavaScript / Node](#javascript--node)
+- [Meetups](#meetups)
+- [People to Follow on Social Networks](#people-to-follow-on-social-networks)
+- [Podcasts](#podcasts)
+- [Python](#python)
+- [Training and Certification (and other things to add to your LinkedIn profile)](#training-and-certification-and-other-things-to-add-to-your-linkedin-profile)
+- [UI/UX](#uiux)
+- [Windows](#windows)
+- [YouTube Channels and Users](#youtube-channels-and-users)
+- [Misc. random / cool stuff that I am too lazy to categorize](#misc-random--cool-stuff-that-i-am-too-lazy-to-categorize)
 
-[Code Pen's Spark](https://codepen.io/spark) ⭐️ - Weekly email/blog posts with the most intenteresting stuff on CodePen.
+<!-- /TOC -->
 
-[David Walsh Blog](https://davidwalsh.name/) ⭐️ - A blog featuring tutorials about JavaScript, HTML5, AJAX, PHP, CSS, WordPress, and everything else development. ([Twitter](https://twitter.com/davidwalshblog))
-
-[Increment](https://www.increment.com/) - Quartly "magzine" that focuses experience of being a developer within technology companies and startups, best practices that companies have created and adopted to help developers work more effectively, and the tools and processes that developers use to get their jobs done.
-
-[Javascript Weekly](http://javascriptweekly.com) ⭐️ - Interesting articles/opinions, news, tutorials, tools and code examples.
-
-[Mozilla Hacks](https://hacks.mozilla.org/) - Mozilla Hacks is written for web developers, designers and everyone who builds for the Web. Hacks is produced by Mozilla's Developer Relations team and features hundreds of posts from Mozilla.
-
-## People to Follow 
- Addy Osmani (Google) ⭐️ [Twitter](https://twitter.com/addyosmani) | [Facebook](https://www.facebook.com/addyosmaniofficial/)
-
-## Bash / Termainal / Command Line / PowerShell
+## Bash / Command Line / PowerShell / Termainal
 
 [asciinema](https://asciinema.org) - Record and share your terminal sessions
 
 [Command Line Power User](https://commandlinepoweruser.com/) - A video series for web developers on learning a modern command line workflow with ZSH, Z and related tools.
 
 [Explain Shell](https://explainshell.com) - write down a command-line to see the help text that matches each argument
+
+[oh-my-zsh](http://ohmyz.sh/) ⭐️ - Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes
+
+[Spaceship ZSH](https://github.com/denysdovhan/spaceship-prompt) ⭐️ - Spaceship is a minimalistic, powerful and extremely customizable Zsh prompt. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
+
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ⭐️ - Auto-suggestions for zsh 
+
+## Blogs, Publications and Email Newsletters
+
+[A List Apart](https://alistapart.com) ⭐️ - A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.	
+
+[Code Burst](https://codeburst.io/) - Bursts of code to power through your day. Web Development articles, tutorials, and news.
+
+[Code Pen's Spark](https://codepen.io/spark) ⭐️ - Weekly email/blog posts with the most intenteresting stuff on CodePen.
+
+[David Walsh Blog](https://davidwalsh.name/) ⭐️ - A blog featuring tutorials about JavaScript, HTML5, AJAX, PHP, CSS, WordPress, and everything else development. ([Twitter](https://twitter.com/davidwalshblog))
+
+[Increment](https://www.increment.com/) - Quartly "magazine" that focuses experience of being a developer within technology companies and startups, best practices that companies have created and adopted to help developers work more effectively, and the tools and processes that developers use to get their jobs done.
+
+[Javascript Weekly](http://javascriptweekly.com) ⭐️ - Interesting articles/opinions, news, tutorials, tools and code examples.
+
+[Mozilla Hacks](https://hacks.mozilla.org/) - Mozilla Hacks is written for web developers, designers and everyone who builds for the Web. Hacks is produced by Mozilla's Developer Relations team and features hundreds of posts from Mozilla.
+
+## Books
+
+[Access Safari eBooks for free with SF Library account](http://ezproxy.sfpl.org/login?qurl=http://proquest.safaribooksonline.com%)
+
+[Secrets of the JavaScript Ninja](https://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/1617292850/ref=sr_1_1?ie=UTF8&qid=1517012922&sr=8-1&keywords=secrets+of+the+javascript+ninja) ⭐️ - Authored by John Resig, the creator of the jQuery library. The book teaches you how to master key JavaScript concepts such as functions, closures, objects, prototypes, and promises.
+
+You Don't Know JS ⭐️ [Free on Github](https://github.com/getify/You-Dont-Know-JS) | [Amazon](https://www.amazon.com/Kyle-Simpson/e/B006MAHIQ6/ref=sr_ntt_srch_lnk_1?qid=1517012881&sr=8-1)
+
+## Chrome /FireFox DevTools
+
+[Colorful console.log](https://coderwall.com/p/fskzdw/colorful-console-log)
+
+[FireFox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) ⭐️
+
+[Pause Your Code With Breakpoints](https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints)
+
+[Workbox](https://developers.google.com/web/tools/workbox/) - Workbox is a collection of libraries and build tools that make it easy to store your website’s files locally, on your users’ devices.
+
+## Computer Science
+
+[Algorithms & Big O Notation in Plain English](https://github.com/pavankat/big-o-in-plain-english) - the only big o guide written in plain english.
+
+[Base CS](https://medium.com/basecs) - Exploring the basics of computer science, every Monday, for a year.
+
+[Visual Algo](https://visualgo.net) - visualising data structures and algorithms through animation.
+
+[MIT: Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm)
 
 ## CSS Documentation, Tools and Tutorials
 
@@ -49,15 +107,11 @@
 
 [Grabient](https://www.grabient.com/) - UI to generate linear-gradients
 
+[Lottie](http://airbnb.io/lottie/) ⭐️ - mobile library for Web, and iOS that parses Adobe After Effects animations exported as json 
+
+[MDN - Using CSS animations: Adding the animation event listeners](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#Adding_the_animation_event_listeners) - Use JavaScript code to listen for animation events
+
 [Nth-Test](http://www.topdesignagencies.com/nth-test/) - Test nth-child and nth-of-type psuedo selectors
-
-## Computer Science
-
-[Base CS](https://medium.com/basecs) - Exploring the basics of computer science, every Monday, for a year.
-
-[Visual Algo](https://visualgo.net) - visualising data structures and algorithms through animation.
-
-[MIT: Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm)
 
 ## Editor Plugins (VS Code unless otherwise noted)
 
@@ -93,6 +147,8 @@
 
 [Carbon](https://carbon.now.sh) - Create and share images of your source code.
 
+[GitBook](https://www.gitbook.com/) - Documentation made easy. GitBook helps your team write, collaborate and publish content online.
+
 [GitHub Marketplace](https://github.com/marketplace) - Tools to build on and improve your workflow
 
 [Shields.io](https://shields.io/) ⭐️️ - Cool/informational badges for your Github readmes.
@@ -117,13 +173,15 @@
 
 [Adafruit](https://www.adafruit.com/) - Adafruit Industries is an open-source hardware company based in New York City.
 
-[CircuitPython](https://github.com/adafruit/circuitpython) - a Python implementation for teaching coding with microcontrollers
+[CircuitPython](https://github.com/adafruit/circuitpython) - a Python implementation for teaching coding with microcontrollers.
 
 [Node Bots](http://nodebots.io/) - Learn how to make robots powered by JavaScript
 
 [Tessel 2](https://tessel.io) - Tessel 2 is a robust IoT and robotics development platform. Leverage all the libraries of Node.JS to create useful devices in minutes with Tessel.
 
 ## JavaScript / Node
+
+[Anime.js](http://animejs.com/) - lightweight JavaScript animation library. It works with any CSS Properties, individual CSS transforms, SVG or any DOM attributes, and JavaScript Objects.
 
 [NPM docs and tutorials](https://docs.npmjs.com/) - These are the docs you're looking for :)
 
@@ -151,7 +209,32 @@ Node School ⭐️ [San Francisco](https://nodeschool.io/sanfrancisco/) | [Oakla
 
 SF HTML5 ⭐️ ($10 fee but always super interesting and great for networking) - [Meetup](https://www.meetup.com/sfhtml5/) | [YouTube (free and uploaded imediaty following the meetup)](https://www.youtube.com/channel/UCyupHmJVuUGpCMzemHYnUqQ)
 
+## People to Follow on Social Networks
+ Addy Osmani (Google) ⭐️ [Twitter](https://twitter.com/addyosmani) | [Facebook](https://www.facebook.com/addyosmaniofficial/)
+
+ Kyle Simpson (author of You Don't Know JS book series) ⭐️ [Github](https://github.com/getify) | [Twitter](https://twitter.com/getify)
+
+## Podcasts
+
+[CTRL+CLICK](https://ctrlclickcast.com) - Features diverse voices from the industry’s leaders and innovators, who tackle everything from design, code and content management systems, to culture and business challenges. Focused, topical discussions teach, inspire and waste no time getting to the heart of the matter.
+
+[Hanselminutes](https://hanselminutes.com/) ⭐️ - One of the best podcasts ever. Scott covers technology, culture, gadgets, diversity, code, community, social equity, media, entrepreneurship and above all, the open web.
+
+[IRL](https://irlpodcast.org/) - Stories of life online and real talk about the future of the Web. IRL is an original podcast from Mozilla. 
+
+[JavaScript Jabber](https://devchat.tv/js-jabber) - A a weekly discussion about JavaScript, front-end development, community, careers, and frameworks. 
+
+[Shop Talk Show](http://shoptalkshow.com/) ⭐️ - An internet radio show about the internet starring Dave Rupert and Chris Coyier (of CSS Tricks and Codepen.io) And they have a [job board!](https://shoptalkshow.com/jobs/)
+
+## Python
+
+[Awesome Python](https://github.com/vinta/awesome-python) - A curated list of awesome Python frameworks, libraries, software and resources
+
+[CircuitPython](https://github.com/adafruit/circuitpython) - a Python implementation for teaching coding with microcontrollers.
+
 ## Training and Certification (and other things to add to your LinkedIn profile)
+
+[Code Wars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges.
 
 [Google Developer Training](https://developers.google.com/training/web/) ⭐️ - Learn how to build production-ready web apps for mobile and desktop. 
 
@@ -167,9 +250,23 @@ SF HTML5 ⭐️ ($10 fee but always super interesting and great for networking) 
 
 [ai2html](http://ai2html.org/) - An open-source script for Adobe Illustrator that converts your Illustrator documents into html and css.
 
-## YouTube Channels and Users
+## Windows
 
-[Amazon Web Services - Webinar Channel](https://www.youtube.com/channel/UCT-nPlVzJI-ccQXlxjSvJmw)
+[Command line alternatives](#)
+
+[Git Bash](#)
+
+[How to Install Linux](#)
+
+[Ninite](#)
+
+SSH on Windows [PuTTy](#) | [Native on Win10](#)
+
+[Synergy](#)
+
+[Virtual Box](#)
+
+## YouTube Channels and Users
 
 [Coding Tech](https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ) - Coding Tech posts content which was originally published with the Creative Commons Attribution license on such channels as [Confreaks](https://www.youtube.com/user/Confreaks), [Web Rebels](https://www.youtube.com/channel/UCM9cTs_C0PmTlHXTNrqTpnw), [dotconferences](https://www.youtube.com/user/dotconferences), and [Engineers.SG](https://www.youtube.com/channel/UCjRZr5HQKHVKP3SZdX8y8Qw).
 
@@ -191,8 +288,14 @@ SF HTML5 ⭐️ ($10 fee but always super interesting and great for networking) 
 
 ## Misc. random / cool stuff that I am too lazy to categorize
 
+[AR.js](https://github.com/jeromeetienne/AR.js#arjs---efficient-augmented-reality-for-the-web) - Augmented Reality for the Web.
+
+[jsnes](https://github.com/bfirsh/jsnes) - A JavaScript NES emulator.
+
 [Paper Programs](https://paperprograms.org) - browser-based system for running Javascript programs on pieces of paper.
 
 [snipplr](http://snipplr.com) - Keep all of your frequently used code snippets in one place that's accessible from any computer. You can share your code with other visitors and use what they post, too.
 
-[Slack Themes](http://slackthemes.net) - A Slack sidebar theme browser
+[Slack Themes](http://slackthemes.net) - A Slack sidebar theme browser.
+
+[WOFF font converter](https://andrewsun.com/tools/woffer-woff-font-converter/) - This handy tool converts TTF or OTF fonts to WOFF format.
