@@ -53,6 +53,8 @@
 
 [Mozilla Hacks](https://hacks.mozilla.org/) - Mozilla Hacks is written for web developers, designers and everyone who builds for the Web. Hacks is produced by Mozilla's Developer Relations team and features hundreds of posts from Mozilla.
 
+[NPM Weekly](https://www.npmjs.com/npm-weekly) - NPM news, featured packages and events.
+
 ## Books
 
 [Access Safari eBooks for free with SF Library account](http://ezproxy.sfpl.org/login?qurl=http://proquest.safaribooksonline.com%)
@@ -155,7 +157,7 @@ You Don't Know JS ⭐️ [Free on Github](https://github.com/getify/You-Dont-Kno
 
 [Todo bot](https://todo.jasonet.co) ⭐️ - GitHub App that automagically creates new issues based on comments and keywords in your code when you push it to GitHub.
 
-[Tower 2](https://www.git-tower.com) - Version control with Git - made easy. In a beautiful, efficient, and powerful app. [WHY 👏 HAVE 👏YOU 👏 NOT 👏 PURCHASED 👏 THIS 👏 YET?! 👏](https://media.giphy.com/media/2nGfl4QfpCtW/giphy.gif)
+[Tower 2 Win/Mac](https://www.git-tower.com) - Version control with Git - made easy. In a beautiful, efficient, and powerful app. [WHY 👏 HAVE 👏YOU 👏 NOT 👏 PURCHASED 👏 THIS 👏 YET?! 👏](https://media.giphy.com/media/2nGfl4QfpCtW/giphy.gif)
 
 ## Hosting: services, security, deployment docs and tools
 
@@ -246,25 +248,25 @@ SF HTML5 ⭐️ ($10 fee but always super interesting and great for networking) 
 
 ## UI/UX
 
-[Figma](https://www.figma.com) - Think Google docs for design, prototyping, and gathering feedback.
-
 [ai2html](http://ai2html.org/) - An open-source script for Adobe Illustrator that converts your Illustrator documents into html and css.
+
+[Figma](https://www.figma.com) - Think Google docs for design, prototyping, and gathering feedback.
 
 ## Windows
 
-[Command line alternatives](#)
+[Git Bash](https://git-scm.com/downloads)
 
-[Git Bash](#)
+[Install the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-[How to Install Linux](#)
+[Ninite](https://ninite.com) - The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.
 
-[Ninite](#)
+Command Prompt/PowerShell alternatives: [cmder](http://cmder.net) | [Cygwin](https://www.cygwin.com) | [Hyper](https://hyper.is)
 
-SSH on Windows [PuTTy](#) | [Native on Win10](#)
+SSH on Windows [PuTTy](https://www.putty.org/) | [Native on Win10](https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/)
 
-[Synergy](#)
+[Synergy](https://symless.com/synergy) - Combine your computers into one cohesive experience 
 
-[Virtual Box](#)
+[Virtual Box](https://www.virtualbox.org/wiki/Downloads) -  VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use. 
 
 ## YouTube Channels and Users
 
