@@ -1,9 +1,9 @@
 <!-- TOC -->
 
-- [Bash / Command Line / PowerShell / Termainal](#bash--command-line--powershell--termainal)
 - [Blogs, Publications and Email Newsletters](#blogs-publications-and-email-newsletters)
 - [Books](#books)
 - [Chrome /FireFox DevTools](#chrome-firefox-devtools)
+- [Command Line](#command-line)
 - [Computer Science](#computer-science)
 - [CSS Documentation, Tools and Tutorials](#css-documentation-tools-and-tutorials)
 - [Editor Plugins (VS Code unless otherwise noted)](#editor-plugins-vs-code-unless-otherwise-noted)
@@ -22,20 +22,6 @@
 - [Misc. random / cool stuff that I am too lazy to categorize](#misc-random--cool-stuff-that-i-am-too-lazy-to-categorize)
 
 <!-- /TOC -->
-
-## Bash / Command Line / PowerShell / Termainal
-
-[asciinema](https://asciinema.org) - Record and share your terminal sessions
-
-[Command Line Power User](https://commandlinepoweruser.com/) - A video series for web developers on learning a modern command line workflow with ZSH, Z and related tools.
-
-[Explain Shell](https://explainshell.com) - write down a command-line to see the help text that matches each argument
-
-[oh-my-zsh](http://ohmyz.sh/) ⭐️ - Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes
-
-[Spaceship ZSH](https://github.com/denysdovhan/spaceship-prompt) ⭐️ - Spaceship is a minimalistic, powerful and extremely customizable Zsh prompt. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
-
-[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ⭐️ - Auto-suggestions for zsh 
 
 ## Blogs, Publications and Email Newsletters
 
@@ -72,6 +58,20 @@ You Don't Know JS ⭐️ [Free on Github](https://github.com/getify/You-Dont-Kno
 [Pause Your Code With Breakpoints](https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints)
 
 [Workbox](https://developers.google.com/web/tools/workbox/) - Workbox is a collection of libraries and build tools that make it easy to store your website’s files locally, on your users’ devices.
+
+## Command Line
+
+[asciinema](https://asciinema.org) - Record and share your terminal sessions
+
+[Command Line Power User](https://commandlinepoweruser.com/) - A video series for web developers on learning a modern command line workflow with ZSH, Z and related tools.
+
+[Explain Shell](https://explainshell.com) - write down a command-line to see the help text that matches each argument
+
+[oh-my-zsh](http://ohmyz.sh/) ⭐️ - Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes
+
+[Spaceship ZSH](https://github.com/denysdovhan/spaceship-prompt) ⭐️ - Spaceship is a minimalistic, powerful and extremely customizable Zsh prompt. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
+
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ⭐️ - Auto-suggestions for zsh 
 
 ## Computer Science
 
