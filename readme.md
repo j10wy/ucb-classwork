@@ -1,4 +1,4 @@
-<!-- TOC -->
+# Resources
 
 - [Blogs, Publications and Email Newsletters](#blogs-publications-and-email-newsletters)
 - [Books](#books)
@@ -20,8 +20,6 @@
 - [Windows](#windows)
 - [YouTube Channels and Users](#youtube-channels-and-users)
 - [Misc. random / cool stuff that I am too lazy to categorize](#misc-random--cool-stuff-that-i-am-too-lazy-to-categorize)
-
-<!-- /TOC -->
 
 ## Blogs, Publications and Email Newsletters
 
@@ -137,7 +135,7 @@ You Don't Know JS ⭐️ [Free on Github](https://github.com/getify/You-Dont-Kno
 
 [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) ⭐️️ - Provide rainbow colors for the round brackets, the square brackets and the squiggly brackets. This is particularly useful for Lisp or Clojure programmers, and of course, JavaScript, and other programmers.
 
-[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) ⭐️ - Sync your VS Code settings to Github. This allows you to sync your settings to VS Code on any PC/Mac you use.
 
 [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings) ⭐️️ - Popular Sublime Text keybindings for VS Code.
 
@@ -157,7 +155,7 @@ You Don't Know JS ⭐️ [Free on Github](https://github.com/getify/You-Dont-Kno
 
 [Todo bot](https://todo.jasonet.co) ⭐️ - GitHub App that automagically creates new issues based on comments and keywords in your code when you push it to GitHub.
 
-[Tower 2 Win/Mac](https://www.git-tower.com) - Version control with Git - made easy. In a beautiful, efficient, and powerful app. [WHY 👏 HAVE 👏YOU 👏 NOT 👏 PURCHASED 👏 THIS 👏 YET?! 👏](https://media.giphy.com/media/2nGfl4QfpCtW/giphy.gif)
+[Tower 2 Win/Mac](https://www.git-tower.com) ⭐️ - Version control with Git - made easy. In a beautiful, efficient, and powerful app.
 
 ## Hosting: services, security, deployment docs and tools
 
@@ -178,6 +176,8 @@ You Don't Know JS ⭐️ [Free on Github](https://github.com/getify/You-Dont-Kno
 [CircuitPython](https://github.com/adafruit/circuitpython) - a Python implementation for teaching coding with microcontrollers.
 
 [Node Bots](http://nodebots.io/) - Learn how to make robots powered by JavaScript
+
+[Puck.js](https://www.puck-js.com/) - A bluetooth beacon - an Open Source JavaScript microcontroller you can program and debug wirelessly.
 
 [Tessel 2](https://tessel.io) - Tessel 2 is a robust IoT and robotics development platform. Leverage all the libraries of Node.JS to create useful devices in minutes with Tessel.
 
